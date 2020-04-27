@@ -1,0 +1,217 @@
+body {
+  background-color: darkslategrey;
+}
+
+/*body*/
+.r1 {
+  text-align: center;
+  color: darkorange;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 0px;
+  margin: 0px;
+  height: 0px;
+  transform: translate(0px, 20px);
+}
+
+.f1 {
+  transform: translate(20px, 50px);
+  width: 500px;
+}
+
+.f1 label {
+  color: wheat;
+  max-width: none !important;
+}
+
+/*end body*/
+
+.box_prusc {
+  border: 1px solid red;
+  height: 300px;
+  width: 400px;
+  transform: translate(0px, 0px);
+}
+
+/*button setting*/
+
+.open_setting {
+  transform: translate(350px, 15px);
+  background-color: darkorange;
+  color: black;
+}
+
+/*box sitting*/
+
+.box_satting {
+  color: cornsilk;
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  background-color: darkgoldenrod;
+  transform: translate(250px, 25px);
+  display: none;
+  position: absolute;
+}
+
+#show_p {
+  padding: 5px;
+  cursor: pointer;
+  margin-left: 30px;
+  background-color: slateblue;
+  transform: translate(0px, 10px);
+}
+
+#show_p:hover {
+  background-color: darkorchid;
+}
+
+#del_o {
+  padding: 5px;
+  cursor: pointer;
+  margin-left: 30px;
+  transform: translate(0px, 35px);
+  background-color: slateblue;
+}
+
+#del_o:hover {
+  background-color: darkorchid;
+}
+
+#mod_o {
+  padding: 5px;
+  cursor: pointer;
+  margin-left: 30px;
+  background-color: slateblue;
+  transform: translate(0px, 60px);
+}
+
+#mod_o:hover {
+  background-color: darkorchid;
+}
+
+.close-1 {
+  margin-left: 20px;
+  font-size: 25px;
+  position: absolute;
+  transform: translate(145px, 0px);
+  cursor: pointer;
+}
+
+.close-1:hover {
+  color: red;
+}
+
+/*end box sitting*/
+
+/* box table */
+
+.box_table {
+  height: 300px;
+  width: 700px;
+  overflow-y: scroll;
+  border: 2px solid black;
+  background-color: #343a40;
+  transform: translate(500px, -300px);
+  display: none;
+  position: absolute;
+}
+
+.box_table thead tr {
+  /*color: violet;*/
+  color: #4a1515;
+  background-color: darkgoldenrod;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* end box table */
+
+.box_delete {
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 120px;
+  width: 250px;
+  transform: translate(750px, 50px);
+  background-color: darkkhaki;
+  display: none;
+}
+
+.lab-del {
+  font-size: 20px;
+  font-weight: bold;
+  color: #2f4f4f;
+}
+
+#sel_dat_1 {
+  width: 200px;
+  cursor: pointer;
+  background-color: slategray;
+}
+
+.btn_del_1 {
+  margin-top: 10px;
+}
+
+/*box_update */
+
+.box_update {
+  height: 300px;
+  width: 550px;
+  background-color: rgb(125, 136, 156);
+  transform: translate(550px, 5px);
+  border: 1px solid black;
+  border-radius: 10px;
+  display: none;
+}
+
+.title_update_2 {
+  text-align: center;
+}
+
+.lab_update_2 {
+  color: antiquewhite;
+  font-weight: bold;
+  display: block;
+}
+
+.sel_update_2 {
+  width: 200px;
+  cursor: pointer;
+  background-color: cornsilk;
+}
+
+.lab_left_1 {
+  float: left;
+}
+
+.lab_right_1 {
+  float: right;
+}
+.btn_update_1 {
+  transform: translate(160px, -60px);
+}
+
+.close_update_1 {
+  position: absolute;
+  transform: translate(515px, 1px);
+  font-size: 30px;
+  color: green;
+  cursor: pointer;
+}
+.close_update_1:hover {
+  color: red;
+}
+
+.close_delete_1 {
+  position: absolute;
+  transform: translate(215px, -5px);
+  font-size: 30px;
+  color: green;
+  cursor: pointer;
+}
+.close_delete_1:hover {
+  color: red;
+}
+
+/*end box update*/
